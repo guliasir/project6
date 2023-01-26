@@ -1,0 +1,178 @@
+
+.page__body {
+  margin: 0;
+  font-family: 'Arial','Times New Roman' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  width: auto;
+  min-height: 100vh;
+  color: #40494D;
+  background-color: #F3F7F4;
+  
+ 
+}
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #939393;
+}
+
+
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  max-width: 218px;
+  background-color: #DBA42C;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  padding: 16px 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  background: #283337;
+  border-radius: 56px;
+  transition: 0.25s;
+  cursor: pointer;.
+}
+
+.button:hover {
+  background-color: #67767c;
+  border: #DBA42C;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: calc(100% - 9%);
+}
+.page-header__logo {
+    width: 70px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+
+.header {
+  display: flex;
+  background-color: #fff;
+  height: 110px;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+
+.main-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: flex-start;
+
+}
+
+.main-navigation__list {
+  display: flex;
+}
+
+.main-navigation__item {
+  font-family: 'Arial';
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 69px;
+}
+
+
+
+
+.block-1 {
+  height: 800px;
+  display: grid;
+}
+
+.block-1 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.tagline {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.btn-1 {
+  width: 177px;
+  height: 50px;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    
+  }
+  
+
+.footer {
+    background-color: white;
+    display: grid;
+    
+   
+  
+}
+.partners-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  grid-gap: 45px;
+    justify-items: stretch;
+    margin-left: 90px;
+    
+  
+   
+   
+
+
+}
+
+
+
+
+
+
+
+
